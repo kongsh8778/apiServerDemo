@@ -1,0 +1,741 @@
+2019-09-03 15:44:10 DBInitialize.py[line:16] INFO The database name we need to initialize is : api16
+2019-09-03 15:44:10 DBInitialize.py[line:20] INFO Try to initialize database attempt times: 1
+2019-09-03 15:44:10 DBInitialize.py[line:22] INFO Whether database api16 exists? : True
+2019-09-03 15:44:10 DBInitialize.py[line:44] INFO Try to initialize tables attempt times: 1
+2019-09-03 15:44:10 DBInitialize.py[line:51] INFO Try to find table User: None
+2019-09-03 15:44:10 DBInitialize.py[line:52] INFO Try to find table UserBlog: None
+2019-09-03 15:44:10 DBInitialize.py[line:53] INFO User and UserBlog table existed £¡
+2019-09-03 15:44:12 _internal.py[line:122] WARNING  * Debugger is active!
+2019-09-03 15:44:12 _internal.py[line:122] INFO  * Debugger PIN: 115-356-119
+2019-09-03 15:44:12 _internal.py[line:122] INFO  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2019-09-03 15:44:29 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:30 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:30 register.py[line:30] INFO json_data: {'username': 'wulao572', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:30 register.py[line:33] INFO username: wulao572
+2019-09-03 15:44:30 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:30 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:30 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:30 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:30 register.py[line:43] INFO #####request.json: {'username': 'wulao572', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:30 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:30 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:30 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:44:30 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:30 register.py[line:48] INFO #####request.data: b'{"username": "wulao572", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:30 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:30 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:30 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:30 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:30] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:31 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:31 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:31 login.py[line:27] INFO json_data: {'username': 'wulao572', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:31 login.py[line:29] INFO username: wulao572
+2019-09-03 15:44:31 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:31 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:31 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:31 login.py[line:41] INFO userToLogin: <table User=> id: 1 username:'wulao572' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:31 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:31 util.py[line:77] INFO usernameFromPost: wulao572
+2019-09-03 15:44:31 util.py[line:79] INFO userInDb: <table User=> id: 1 username:'wulao572' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:31 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:31 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:31 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:31 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:31] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:44:32 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:32 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:32 create.py[line:30] INFO userid: 1
+2019-09-03 15:44:32 create.py[line:32] INFO userToken: 6223764add6e469aacb6a65f362403e1
+2019-09-03 15:44:32 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:32 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:32 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:32 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:32 create.py[line:48] INFO getUserInDB: <table User=> id: 1 username:'wulao572' password:'wulaoshi2019' email:'wulao@qq.com' token : '6223764add6e469aacb6a65f362403e1' loginTime:'2019-09-03 15:44:31'>
+2019-09-03 15:44:32 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:31
+2019-09-03 15:44:32 create.py[line:55] INFO userTokenInDB: 6223764add6e469aacb6a65f362403e1
+2019-09-03 15:44:32 util.py[line:122] INFO timestampNew : time when post request: 1567496672.484749
+2019-09-03 15:44:32 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=31, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:32 util.py[line:126] INFO timestampOld format from timeArray: 1567496671.0
+2019-09-03 15:44:32 util.py[line:128] INFO timeStampDiff: 1.4847490787506104
+2019-09-03 15:44:32 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:32 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:32
+2019-09-03 15:44:32 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:32] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:33 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:33 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:33 register.py[line:30] INFO json_data: {'username': 'wulao737', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:33 register.py[line:33] INFO username: wulao737
+2019-09-03 15:44:33 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:33 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:33 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:33 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:33 register.py[line:43] INFO #####request.json: {'username': 'wulao737', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:33 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:33 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:33 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:44:33 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:33 register.py[line:48] INFO #####request.data: b'{"username": "wulao737", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:33 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:33 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:33 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:33 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:33] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:34 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:34 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:34 login.py[line:27] INFO json_data: {'username': 'wulao737', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:34 login.py[line:29] INFO username: wulao737
+2019-09-03 15:44:34 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:34 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:34 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:34 login.py[line:41] INFO userToLogin: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:34 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:34 util.py[line:77] INFO usernameFromPost: wulao737
+2019-09-03 15:44:34 util.py[line:79] INFO userInDb: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:34 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:34 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:34 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:34 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:34] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:44:35 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:35 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:35 create.py[line:30] INFO userid: 2
+2019-09-03 15:44:35 create.py[line:32] INFO userToken: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:35 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:35 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:35 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:35 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:35 create.py[line:48] INFO getUserInDB: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : '973ada49a8e14ed4b2c5673ee9a402b7' loginTime:'2019-09-03 15:44:34'>
+2019-09-03 15:44:35 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:34
+2019-09-03 15:44:35 create.py[line:55] INFO userTokenInDB: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:35 util.py[line:122] INFO timestampNew : time when post request: 1567496675.7328906
+2019-09-03 15:44:35 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=34, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:35 util.py[line:126] INFO timestampOld format from timeArray: 1567496674.0
+2019-09-03 15:44:35 util.py[line:128] INFO timeStampDiff: 1.7328906059265137
+2019-09-03 15:44:35 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:35 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:35
+2019-09-03 15:44:35 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:35] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:36 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:36 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:36 create.py[line:30] INFO userid: 2
+2019-09-03 15:44:36 create.py[line:32] INFO userToken: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:36 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:36 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:36 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:36 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:36 create.py[line:48] INFO getUserInDB: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : '973ada49a8e14ed4b2c5673ee9a402b7' loginTime:'2019-09-03 15:44:34'>
+2019-09-03 15:44:36 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:34
+2019-09-03 15:44:36 create.py[line:55] INFO userTokenInDB: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:36 util.py[line:122] INFO timestampNew : time when post request: 1567496676.8202634
+2019-09-03 15:44:36 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=34, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:36 util.py[line:126] INFO timestampOld format from timeArray: 1567496674.0
+2019-09-03 15:44:36 util.py[line:128] INFO timeStampDiff: 2.820263385772705
+2019-09-03 15:44:36 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:36 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:36
+2019-09-03 15:44:36 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:36] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:37 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:37 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:37 create.py[line:30] INFO userid: 2
+2019-09-03 15:44:37 create.py[line:32] INFO userToken: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:37 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:37 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:37 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:37 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:37 create.py[line:48] INFO getUserInDB: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : '973ada49a8e14ed4b2c5673ee9a402b7' loginTime:'2019-09-03 15:44:34'>
+2019-09-03 15:44:37 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:34
+2019-09-03 15:44:37 create.py[line:55] INFO userTokenInDB: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:37 util.py[line:122] INFO timestampNew : time when post request: 1567496677.9066403
+2019-09-03 15:44:37 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=34, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:37 util.py[line:126] INFO timestampOld format from timeArray: 1567496674.0
+2019-09-03 15:44:37 util.py[line:128] INFO timeStampDiff: 3.9066402912139893
+2019-09-03 15:44:37 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:37 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:37
+2019-09-03 15:44:37 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:37] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:38 getBlogsOfUser.py[line:26] INFO ########################[GetBlogsOfUser]########################
+2019-09-03 15:44:38 getBlogsOfUser.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:38 getBlogsOfUser.py[line:29] INFO json_data: {'userid': 2, 'token': '973ada49a8e14ed4b2c5673ee9a402b7'}
+2019-09-03 15:44:38 getBlogsOfUser.py[line:31] INFO userid: 2
+2019-09-03 15:44:38 getBlogsOfUser.py[line:33] INFO userToken: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:38 getBlogsOfUser.py[line:35] INFO offset: 
+2019-09-03 15:44:38 getBlogsOfUser.py[line:37] INFO lines: 
+2019-09-03 15:44:38 getBlogsOfUser.py[line:39] INFO neededParams: dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:38 getBlogsOfUser.py[line:41] INFO requestParams: dict_keys(['userid', 'token'])
+2019-09-03 15:44:38 getBlogsOfUser.py[line:43] INFO type(offset) -> <class 'str'> 
+ type(lines) -> <class 'str'>
+2019-09-03 15:44:38 getBlogsOfUser.py[line:48] INFO getUserInDB: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : '973ada49a8e14ed4b2c5673ee9a402b7' loginTime:'2019-09-03 15:44:34'>
+2019-09-03 15:44:38 getBlogsOfUser.py[line:54] INFO userLoginTimeInDB: 2019-09-03 15:44:34
+2019-09-03 15:44:38 getBlogsOfUser.py[line:57] INFO userTokenInDB: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:38 util.py[line:122] INFO timestampNew : time when post request: 1567496678.9680357
+2019-09-03 15:44:38 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=34, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:38 util.py[line:126] INFO timestampOld format from timeArray: 1567496674.0
+2019-09-03 15:44:38 util.py[line:128] INFO timeStampDiff: 4.968035697937012
+2019-09-03 15:44:38 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:38 getBlogsOfUser.py[line:72] INFO blogs: [<table UserBlog=> articleId: 2 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:35' updateTime : None>, <table UserBlog=> articleId: 3 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:36' updateTime : None>, <table UserBlog=> articleId: 4 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:37' updateTime : None>]
+2019-09-03 15:44:38 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 2 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:35' updateTime : None>
+2019-09-03 15:44:38 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 2, 'owner': 2, 'posted_on': '2019-09-03 15:44:35'}
+2019-09-03 15:44:38 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 2, 'owner': 2, 'posted_on': '2019-09-03 15:44:35'}], 'code': '00', 'userid': 2}
+2019-09-03 15:44:38 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 3 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:36' updateTime : None>
+2019-09-03 15:44:38 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 3, 'owner': 2, 'posted_on': '2019-09-03 15:44:36'}
+2019-09-03 15:44:38 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 2, 'owner': 2, 'posted_on': '2019-09-03 15:44:35'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 3, 'owner': 2, 'posted_on': '2019-09-03 15:44:36'}], 'code': '00', 'userid': 2}
+2019-09-03 15:44:38 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 4 blogTitle:'mysql' blogContent:'mysql learn' user_id:2 createTime : '2019-09-03 15:44:37' updateTime : None>
+2019-09-03 15:44:38 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 4, 'owner': 2, 'posted_on': '2019-09-03 15:44:37'}
+2019-09-03 15:44:38 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 2, 'owner': 2, 'posted_on': '2019-09-03 15:44:35'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 3, 'owner': 2, 'posted_on': '2019-09-03 15:44:36'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 4, 'owner': 2, 'posted_on': '2019-09-03 15:44:37'}], 'code': '00', 'userid': 2}
+2019-09-03 15:44:38 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:38] "POST /getBlogsOfUser/ HTTP/1.1" 200 -
+2019-09-03 15:44:39 delete.py[line:27] INFO ########################[delete]########################
+2019-09-03 15:44:39 delete.py[line:28] INFO self.args.keys(): dict_keys(['userid', 'token', 'articleId'])
+2019-09-03 15:44:39 delete.py[line:31] INFO userid: 2
+2019-09-03 15:44:39 delete.py[line:33] INFO userToken: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:39 delete.py[line:35] INFO articleIdList: [2, 3, 4]
+2019-09-03 15:44:39 delete.py[line:37] INFO neededParams: dict_keys(['userid', 'token', 'articleId'])
+2019-09-03 15:44:39 delete.py[line:39] INFO requestParams: dict_keys(['userid', 'token', 'articleId'])
+2019-09-03 15:44:40 delete.py[line:45] INFO getUserInDB: <table User=> id: 2 username:'wulao737' password:'wulaoshi2019' email:'wulao@qq.com' token : '973ada49a8e14ed4b2c5673ee9a402b7' loginTime:'2019-09-03 15:44:34'>
+2019-09-03 15:44:40 delete.py[line:49] INFO userLoginTimeInDB: 2019-09-03 15:44:34
+2019-09-03 15:44:40 delete.py[line:52] INFO userTokenInDB: 973ada49a8e14ed4b2c5673ee9a402b7
+2019-09-03 15:44:40 util.py[line:122] INFO timestampNew : time when post request: 1567496679.997444
+2019-09-03 15:44:40 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=34, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:40 util.py[line:126] INFO timestampOld format from timeArray: 1567496674.0
+2019-09-03 15:44:40 util.py[line:128] INFO timeStampDiff: 5.997443914413452
+2019-09-03 15:44:40 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:40 delete.py[line:64] INFO articleIdList: [2, 3, 4]
+2019-09-03 15:44:40 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:40] "DELETE /delete/ HTTP/1.1" 200 -
+2019-09-03 15:44:41 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:41 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:41 register.py[line:30] INFO json_data: {'username': 'wulao160', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:41 register.py[line:33] INFO username: wulao160
+2019-09-03 15:44:41 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:41 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:41 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:41 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:41 register.py[line:43] INFO #####request.json: {'username': 'wulao160', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:41 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:41 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:41 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:44:41 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:41 register.py[line:48] INFO #####request.data: b'{"username": "wulao160", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:41 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:41 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:41 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:41 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:41] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:42 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:42 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:42 login.py[line:27] INFO json_data: {'username': 'wulao160', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:42 login.py[line:29] INFO username: wulao160
+2019-09-03 15:44:42 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:42 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:42 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:42 login.py[line:41] INFO userToLogin: <table User=> id: 3 username:'wulao160' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:42 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:42 util.py[line:77] INFO usernameFromPost: wulao160
+2019-09-03 15:44:42 util.py[line:79] INFO userInDb: <table User=> id: 3 username:'wulao160' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:42 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:42 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:42 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:42 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:42] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:44:43 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:43 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:43 create.py[line:30] INFO userid: 3
+2019-09-03 15:44:43 create.py[line:32] INFO userToken: e0c306de499d4ef39b71edeada0083e0
+2019-09-03 15:44:43 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:43 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:43 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:43 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:43 create.py[line:48] INFO getUserInDB: <table User=> id: 3 username:'wulao160' password:'wulaoshi2019' email:'wulao@qq.com' token : 'e0c306de499d4ef39b71edeada0083e0' loginTime:'2019-09-03 15:44:42'>
+2019-09-03 15:44:43 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:42
+2019-09-03 15:44:43 create.py[line:55] INFO userTokenInDB: e0c306de499d4ef39b71edeada0083e0
+2019-09-03 15:44:43 util.py[line:122] INFO timestampNew : time when post request: 1567496683.225597
+2019-09-03 15:44:43 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=42, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:43 util.py[line:126] INFO timestampOld format from timeArray: 1567496682.0
+2019-09-03 15:44:43 util.py[line:128] INFO timeStampDiff: 1.2255969047546387
+2019-09-03 15:44:43 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:43 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:43
+2019-09-03 15:44:43 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:43] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:44 getBlogsOfUser.py[line:26] INFO ########################[GetBlogsOfUser]########################
+2019-09-03 15:44:44 getBlogsOfUser.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:44 getBlogsOfUser.py[line:29] INFO json_data: {'userid': 3, 'token': 'e0c306de499d4ef39b71edeada0083e0'}
+2019-09-03 15:44:44 getBlogsOfUser.py[line:31] INFO userid: 3
+2019-09-03 15:44:44 getBlogsOfUser.py[line:33] INFO userToken: e0c306de499d4ef39b71edeada0083e0
+2019-09-03 15:44:44 getBlogsOfUser.py[line:35] INFO offset: 
+2019-09-03 15:44:44 getBlogsOfUser.py[line:37] INFO lines: 
+2019-09-03 15:44:44 getBlogsOfUser.py[line:39] INFO neededParams: dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:44 getBlogsOfUser.py[line:41] INFO requestParams: dict_keys(['userid', 'token'])
+2019-09-03 15:44:44 getBlogsOfUser.py[line:43] INFO type(offset) -> <class 'str'> 
+ type(lines) -> <class 'str'>
+2019-09-03 15:44:44 getBlogsOfUser.py[line:48] INFO getUserInDB: <table User=> id: 3 username:'wulao160' password:'wulaoshi2019' email:'wulao@qq.com' token : 'e0c306de499d4ef39b71edeada0083e0' loginTime:'2019-09-03 15:44:42'>
+2019-09-03 15:44:44 getBlogsOfUser.py[line:54] INFO userLoginTimeInDB: 2019-09-03 15:44:42
+2019-09-03 15:44:44 getBlogsOfUser.py[line:57] INFO userTokenInDB: e0c306de499d4ef39b71edeada0083e0
+2019-09-03 15:44:44 util.py[line:122] INFO timestampNew : time when post request: 1567496684.2949865
+2019-09-03 15:44:44 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=42, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:44 util.py[line:126] INFO timestampOld format from timeArray: 1567496682.0
+2019-09-03 15:44:44 util.py[line:128] INFO timeStampDiff: 2.2949864864349365
+2019-09-03 15:44:44 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:44 getBlogsOfUser.py[line:72] INFO blogs: [<table UserBlog=> articleId: 5 blogTitle:'mysql' blogContent:'mysql learn' user_id:3 createTime : '2019-09-03 15:44:43' updateTime : None>]
+2019-09-03 15:44:44 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 5 blogTitle:'mysql' blogContent:'mysql learn' user_id:3 createTime : '2019-09-03 15:44:43' updateTime : None>
+2019-09-03 15:44:44 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 5, 'owner': 3, 'posted_on': '2019-09-03 15:44:43'}
+2019-09-03 15:44:44 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 5, 'owner': 3, 'posted_on': '2019-09-03 15:44:43'}], 'code': '00', 'userid': 3}
+2019-09-03 15:44:44 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:44] "POST /getBlogsOfUser/ HTTP/1.1" 200 -
+2019-09-03 15:44:45 getBlogContent.py[line:24] INFO ########################[GetBlogContent]########################
+2019-09-03 15:44:45 getBlogContent.py[line:27] INFO blog: <table UserBlog=> articleId: 5 blogTitle:'mysql' blogContent:'mysql learn' user_id:3 createTime : '2019-09-03 15:44:43' updateTime : None>
+2019-09-03 15:44:45 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:45] "GET /getBlogContent/5 HTTP/1.1" 200 -
+2019-09-03 15:44:46 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:46 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:46 register.py[line:30] INFO json_data: {'username': 'wulao735', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:46 register.py[line:33] INFO username: wulao735
+2019-09-03 15:44:46 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:46 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:46 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:46 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:46 register.py[line:43] INFO #####request.json: {'username': 'wulao735', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:46 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:46 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:46 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:44:46 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:46 register.py[line:48] INFO #####request.data: b'{"username": "wulao735", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:46 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:46 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:46 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:46 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:46] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:47 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:47 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:47 login.py[line:27] INFO json_data: {'username': 'wulao735', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:47 login.py[line:29] INFO username: wulao735
+2019-09-03 15:44:47 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:47 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:47 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:47 login.py[line:41] INFO userToLogin: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:47 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:47 util.py[line:77] INFO usernameFromPost: wulao735
+2019-09-03 15:44:47 util.py[line:79] INFO userInDb: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:47 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:47 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:47 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:47 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:47] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:44:48 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:48 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:48 create.py[line:30] INFO userid: 4
+2019-09-03 15:44:48 create.py[line:32] INFO userToken: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:48 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:48 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:48 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:48 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:48 create.py[line:48] INFO getUserInDB: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : 'bf58f48f28494fd2b65444a4d16c51a2' loginTime:'2019-09-03 15:44:47'>
+2019-09-03 15:44:48 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:47
+2019-09-03 15:44:48 create.py[line:55] INFO userTokenInDB: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:48 util.py[line:122] INFO timestampNew : time when post request: 1567496688.5425477
+2019-09-03 15:44:48 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=47, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:48 util.py[line:126] INFO timestampOld format from timeArray: 1567496687.0
+2019-09-03 15:44:48 util.py[line:128] INFO timeStampDiff: 1.5425477027893066
+2019-09-03 15:44:48 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:48 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:48
+2019-09-03 15:44:48 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:48] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:49 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:49 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:49 create.py[line:30] INFO userid: 4
+2019-09-03 15:44:49 create.py[line:32] INFO userToken: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:49 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:49 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:49 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:49 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:49 create.py[line:48] INFO getUserInDB: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : 'bf58f48f28494fd2b65444a4d16c51a2' loginTime:'2019-09-03 15:44:47'>
+2019-09-03 15:44:49 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:47
+2019-09-03 15:44:49 create.py[line:55] INFO userTokenInDB: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:49 util.py[line:122] INFO timestampNew : time when post request: 1567496689.6079342
+2019-09-03 15:44:49 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=47, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:49 util.py[line:126] INFO timestampOld format from timeArray: 1567496687.0
+2019-09-03 15:44:49 util.py[line:128] INFO timeStampDiff: 2.6079342365264893
+2019-09-03 15:44:49 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:49 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:49
+2019-09-03 15:44:49 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:49] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:50 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:50 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:50 create.py[line:30] INFO userid: 4
+2019-09-03 15:44:50 create.py[line:32] INFO userToken: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:50 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:50 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:50 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:50 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:50 create.py[line:48] INFO getUserInDB: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : 'bf58f48f28494fd2b65444a4d16c51a2' loginTime:'2019-09-03 15:44:47'>
+2019-09-03 15:44:50 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:47
+2019-09-03 15:44:50 create.py[line:55] INFO userTokenInDB: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:50 util.py[line:122] INFO timestampNew : time when post request: 1567496690.707321
+2019-09-03 15:44:50 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=47, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:50 util.py[line:126] INFO timestampOld format from timeArray: 1567496687.0
+2019-09-03 15:44:50 util.py[line:128] INFO timeStampDiff: 3.7073209285736084
+2019-09-03 15:44:50 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:50 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:50
+2019-09-03 15:44:50 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:50] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:51 getBlogsOfUser.py[line:26] INFO ########################[GetBlogsOfUser]########################
+2019-09-03 15:44:51 getBlogsOfUser.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:51 getBlogsOfUser.py[line:29] INFO json_data: {'userid': 4, 'token': 'bf58f48f28494fd2b65444a4d16c51a2'}
+2019-09-03 15:44:51 getBlogsOfUser.py[line:31] INFO userid: 4
+2019-09-03 15:44:51 getBlogsOfUser.py[line:33] INFO userToken: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:51 getBlogsOfUser.py[line:35] INFO offset: 
+2019-09-03 15:44:51 getBlogsOfUser.py[line:37] INFO lines: 
+2019-09-03 15:44:51 getBlogsOfUser.py[line:39] INFO neededParams: dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:51 getBlogsOfUser.py[line:41] INFO requestParams: dict_keys(['userid', 'token'])
+2019-09-03 15:44:51 getBlogsOfUser.py[line:43] INFO type(offset) -> <class 'str'> 
+ type(lines) -> <class 'str'>
+2019-09-03 15:44:51 getBlogsOfUser.py[line:48] INFO getUserInDB: <table User=> id: 4 username:'wulao735' password:'wulaoshi2019' email:'wulao@qq.com' token : 'bf58f48f28494fd2b65444a4d16c51a2' loginTime:'2019-09-03 15:44:47'>
+2019-09-03 15:44:51 getBlogsOfUser.py[line:54] INFO userLoginTimeInDB: 2019-09-03 15:44:47
+2019-09-03 15:44:51 getBlogsOfUser.py[line:57] INFO userTokenInDB: bf58f48f28494fd2b65444a4d16c51a2
+2019-09-03 15:44:51 util.py[line:122] INFO timestampNew : time when post request: 1567496691.7736952
+2019-09-03 15:44:51 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=47, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:51 util.py[line:126] INFO timestampOld format from timeArray: 1567496687.0
+2019-09-03 15:44:51 util.py[line:128] INFO timeStampDiff: 4.773695230484009
+2019-09-03 15:44:51 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:51 getBlogsOfUser.py[line:72] INFO blogs: [<table UserBlog=> articleId: 6 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:48' updateTime : None>, <table UserBlog=> articleId: 7 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:49' updateTime : None>, <table UserBlog=> articleId: 8 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:50' updateTime : None>]
+2019-09-03 15:44:51 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 6 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:48' updateTime : None>
+2019-09-03 15:44:51 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}
+2019-09-03 15:44:51 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}], 'code': '00', 'userid': 4}
+2019-09-03 15:44:51 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 7 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:49' updateTime : None>
+2019-09-03 15:44:51 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}
+2019-09-03 15:44:51 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}], 'code': '00', 'userid': 4}
+2019-09-03 15:44:51 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 8 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:50' updateTime : None>
+2019-09-03 15:44:51 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 8, 'owner': 4, 'posted_on': '2019-09-03 15:44:50'}
+2019-09-03 15:44:51 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 8, 'owner': 4, 'posted_on': '2019-09-03 15:44:50'}], 'code': '00', 'userid': 4}
+2019-09-03 15:44:51 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:51] "POST /getBlogsOfUser/ HTTP/1.1" 200 -
+2019-09-03 15:44:52 getBlogsContent.py[line:25] INFO ########################[GetBlogsContent]########################
+2019-09-03 15:44:52 getBlogsContent.py[line:26] INFO articleIdString: articleIds=6,7,8
+2019-09-03 15:44:52 getBlogsContent.py[line:32] INFO articleIdResultString: 6,7,8
+2019-09-03 15:44:52 getBlogsContent.py[line:37] INFO articleIdList: ['6', '7', '8']
+2019-09-03 15:44:52 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 6 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:48' updateTime : None>
+2019-09-03 15:44:52 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}
+2019-09-03 15:44:52 util.py[line:163] INFO responseDict: {'code': '00', 'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}]}
+2019-09-03 15:44:52 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 7 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:49' updateTime : None>
+2019-09-03 15:44:52 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}
+2019-09-03 15:44:52 util.py[line:163] INFO responseDict: {'code': '00', 'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}]}
+2019-09-03 15:44:52 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 8 blogTitle:'mysql' blogContent:'mysql learn' user_id:4 createTime : '2019-09-03 15:44:50' updateTime : None>
+2019-09-03 15:44:52 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 8, 'owner': 4, 'posted_on': '2019-09-03 15:44:50'}
+2019-09-03 15:44:52 util.py[line:163] INFO responseDict: {'code': '00', 'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 6, 'owner': 4, 'posted_on': '2019-09-03 15:44:48'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 7, 'owner': 4, 'posted_on': '2019-09-03 15:44:49'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 8, 'owner': 4, 'posted_on': '2019-09-03 15:44:50'}]}
+2019-09-03 15:44:52 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:52] "GET /getBlogsContent/articleIds=6,7,8 HTTP/1.1" 200 -
+2019-09-03 15:44:53 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:53 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:53 register.py[line:30] INFO json_data: {'username': 'wulao376', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:53 register.py[line:33] INFO username: wulao376
+2019-09-03 15:44:53 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:53 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:53 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:53 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:53 register.py[line:43] INFO #####request.json: {'username': 'wulao376', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:53 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:53 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:53 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:44:53 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:53 register.py[line:48] INFO #####request.data: b'{"username": "wulao376", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:53 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:53 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:53 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:53 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:53] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:54 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:54 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:54 login.py[line:27] INFO json_data: {'username': 'wulao376', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:54 login.py[line:29] INFO username: wulao376
+2019-09-03 15:44:54 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:54 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:54 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:54 login.py[line:41] INFO userToLogin: <table User=> id: 5 username:'wulao376' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:54 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:54 util.py[line:77] INFO usernameFromPost: wulao376
+2019-09-03 15:44:54 util.py[line:79] INFO userInDb: <table User=> id: 5 username:'wulao376' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:54 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:54 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:54 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:54 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:54] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:44:55 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:44:55 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:55 create.py[line:30] INFO userid: 5
+2019-09-03 15:44:55 create.py[line:32] INFO userToken: a64d4e51442a46709bf71e2495962f5d
+2019-09-03 15:44:55 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:44:55 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:44:55 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:55 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:44:55 create.py[line:48] INFO getUserInDB: <table User=> id: 5 username:'wulao376' password:'wulaoshi2019' email:'wulao@qq.com' token : 'a64d4e51442a46709bf71e2495962f5d' loginTime:'2019-09-03 15:44:54'>
+2019-09-03 15:44:55 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:44:54
+2019-09-03 15:44:55 create.py[line:55] INFO userTokenInDB: a64d4e51442a46709bf71e2495962f5d
+2019-09-03 15:44:55 util.py[line:122] INFO timestampNew : time when post request: 1567496695.9742842
+2019-09-03 15:44:55 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=54, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:55 util.py[line:126] INFO timestampOld format from timeArray: 1567496694.0
+2019-09-03 15:44:55 util.py[line:128] INFO timeStampDiff: 1.9742841720581055
+2019-09-03 15:44:55 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:55 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:44:55
+2019-09-03 15:44:56 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:56] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:44:57 getBlogsOfUser.py[line:26] INFO ########################[GetBlogsOfUser]########################
+2019-09-03 15:44:57 getBlogsOfUser.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:57 getBlogsOfUser.py[line:29] INFO json_data: {'userid': 5, 'token': 'a64d4e51442a46709bf71e2495962f5d'}
+2019-09-03 15:44:57 getBlogsOfUser.py[line:31] INFO userid: 5
+2019-09-03 15:44:57 getBlogsOfUser.py[line:33] INFO userToken: a64d4e51442a46709bf71e2495962f5d
+2019-09-03 15:44:57 getBlogsOfUser.py[line:35] INFO offset: 
+2019-09-03 15:44:57 getBlogsOfUser.py[line:37] INFO lines: 
+2019-09-03 15:44:57 getBlogsOfUser.py[line:39] INFO neededParams: dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:44:57 getBlogsOfUser.py[line:41] INFO requestParams: dict_keys(['userid', 'token'])
+2019-09-03 15:44:57 getBlogsOfUser.py[line:43] INFO type(offset) -> <class 'str'> 
+ type(lines) -> <class 'str'>
+2019-09-03 15:44:57 getBlogsOfUser.py[line:48] INFO getUserInDB: <table User=> id: 5 username:'wulao376' password:'wulaoshi2019' email:'wulao@qq.com' token : 'a64d4e51442a46709bf71e2495962f5d' loginTime:'2019-09-03 15:44:54'>
+2019-09-03 15:44:57 getBlogsOfUser.py[line:54] INFO userLoginTimeInDB: 2019-09-03 15:44:54
+2019-09-03 15:44:57 getBlogsOfUser.py[line:57] INFO userTokenInDB: a64d4e51442a46709bf71e2495962f5d
+2019-09-03 15:44:57 util.py[line:122] INFO timestampNew : time when post request: 1567496697.0936453
+2019-09-03 15:44:57 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=44, tm_sec=54, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:44:57 util.py[line:126] INFO timestampOld format from timeArray: 1567496694.0
+2019-09-03 15:44:57 util.py[line:128] INFO timeStampDiff: 3.0936453342437744
+2019-09-03 15:44:57 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:44:57 getBlogsOfUser.py[line:72] INFO blogs: [<table UserBlog=> articleId: 9 blogTitle:'mysql' blogContent:'mysql learn' user_id:5 createTime : '2019-09-03 15:44:55' updateTime : None>]
+2019-09-03 15:44:57 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 9 blogTitle:'mysql' blogContent:'mysql learn' user_id:5 createTime : '2019-09-03 15:44:55' updateTime : None>
+2019-09-03 15:44:57 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 9, 'owner': 5, 'posted_on': '2019-09-03 15:44:55'}
+2019-09-03 15:44:57 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 9, 'owner': 5, 'posted_on': '2019-09-03 15:44:55'}], 'code': '00', 'userid': 5}
+2019-09-03 15:44:57 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:57] "POST /getBlogsOfUser/ HTTP/1.1" 200 -
+2019-09-03 15:44:58 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:44:58 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:58 register.py[line:30] INFO json_data: {'username': 'wulao71', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:44:58 register.py[line:33] INFO username: wulao71
+2019-09-03 15:44:58 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:44:58 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:44:58 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:58 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:44:58 register.py[line:43] INFO #####request.json: {'username': 'wulao71', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:44:58 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:44:58 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:44:58 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+
+ 
+2019-09-03 15:44:58 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:44:58 register.py[line:48] INFO #####request.data: b'{"username": "wulao71", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:44:58 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:44:58 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:44:58 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:44:58 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:58] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:44:59 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:44:59 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:44:59 login.py[line:27] INFO json_data: {'username': 'wulao71', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:44:59 login.py[line:29] INFO username: wulao71
+2019-09-03 15:44:59 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:59 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:44:59 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:44:59 login.py[line:41] INFO userToLogin: <table User=> id: 6 username:'wulao71' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:59 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:59 util.py[line:77] INFO usernameFromPost: wulao71
+2019-09-03 15:44:59 util.py[line:79] INFO userInDb: <table User=> id: 6 username:'wulao71' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:44:59 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:44:59 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:44:59 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:44:59 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:44:59] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:45:00 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:45:00 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:45:00 login.py[line:27] INFO json_data: {'username': 'wulao762', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:45:00 login.py[line:29] INFO username: wulao762
+2019-09-03 15:45:00 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:45:00 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:45:00 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:45:00 login.py[line:41] INFO userToLogin: None
+2019-09-03 15:45:00 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:00] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:45:01 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:45:01 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:01 register.py[line:30] INFO json_data: {'username': 'wulao90', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:45:01 register.py[line:33] INFO username: wulao90
+2019-09-03 15:45:01 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:45:01 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:45:01 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:01 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:45:01 register.py[line:43] INFO #####request.json: {'username': 'wulao90', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:45:01 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:45:01 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:45:01 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+
+ 
+2019-09-03 15:45:01 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:45:01 register.py[line:48] INFO #####request.data: b'{"username": "wulao90", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:45:01 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:45:01 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:45:01 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:01 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:01] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:45:02 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:45:02 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:02 register.py[line:30] INFO json_data: {'username': 'wulao90', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:45:02 register.py[line:33] INFO username: wulao90
+2019-09-03 15:45:02 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:45:02 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:45:02 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:02 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:45:02 register.py[line:43] INFO #####request.json: {'username': 'wulao90', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:45:02 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:45:02 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:45:02 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+
+ 
+2019-09-03 15:45:02 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:45:02 register.py[line:48] INFO #####request.data: b'{"username": "wulao90", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:45:02 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:45:02 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:45:02 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:02 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:02] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:45:03 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:45:03 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:03 register.py[line:30] INFO json_data: {'username': 'wulao252', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:45:03 register.py[line:33] INFO username: wulao252
+2019-09-03 15:45:03 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:45:03 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:45:03 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:03 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:45:03 register.py[line:43] INFO #####request.json: {'username': 'wulao252', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:45:03 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:45:03 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:45:03 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:45:03 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:45:03 register.py[line:48] INFO #####request.data: b'{"username": "wulao252", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:45:03 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:45:03 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:45:03 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:03 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:03] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:45:04 register.py[line:27] INFO ########################[Register]########################
+2019-09-03 15:45:04 register.py[line:28] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:04 register.py[line:30] INFO json_data: {'username': 'wulao375', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-09-03 15:45:04 register.py[line:33] INFO username: wulao375
+2019-09-03 15:45:04 register.py[line:36] INFO userPassword: wulaoshi2019
+2019-09-03 15:45:04 register.py[line:39] INFO email: wulao@qq.com
+2019-09-03 15:45:04 register.py[line:41] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:04 register.py[line:42] INFO #####request: <Request 'http://localhost:8000/register/' [POST]> 
+2019-09-03 15:45:04 register.py[line:43] INFO #####request.json: {'username': 'wulao375', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-09-03 15:45:04 register.py[line:44] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'json_module', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-09-03 15:45:04 register.py[line:45] INFO #####request.host: localhost:8000 
+2019-09-03 15:45:04 register.py[line:46] INFO #####request.headers: Host: localhost:8000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 77
+
+ 
+2019-09-03 15:45:04 register.py[line:47] INFO #####request.endpoint: register 
+2019-09-03 15:45:04 register.py[line:48] INFO #####request.data: b'{"username": "wulao375", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-09-03 15:45:04 register.py[line:49] INFO #####request.content_type: None 
+2019-09-03 15:45:04 register.py[line:50] INFO #####request.form: ImmutableMultiDict([]) 
+2019-09-03 15:45:04 register.py[line:52] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-09-03 15:45:04 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:04] "POST /register/ HTTP/1.1" 200 -
+2019-09-03 15:45:05 login.py[line:24] INFO ########################[Login]########################
+2019-09-03 15:45:05 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-09-03 15:45:05 login.py[line:27] INFO json_data: {'username': 'wulao375', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-09-03 15:45:05 login.py[line:29] INFO username: wulao375
+2019-09-03 15:45:05 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:45:05 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-09-03 15:45:05 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-09-03 15:45:05 login.py[line:41] INFO userToLogin: <table User=> id: 9 username:'wulao375' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:45:05 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:45:05 util.py[line:77] INFO usernameFromPost: wulao375
+2019-09-03 15:45:05 util.py[line:79] INFO userInDb: <table User=> id: 9 username:'wulao375' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-09-03 15:45:05 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-09-03 15:45:05 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-09-03 15:45:05 login.py[line:49] INFO userTokenInDB: None
+2019-09-03 15:45:05 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:05] "POST /login/ HTTP/1.1" 200 -
+2019-09-03 15:45:06 create.py[line:26] INFO ########################[Create]########################
+2019-09-03 15:45:06 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:45:06 create.py[line:30] INFO userid: 9
+2019-09-03 15:45:06 create.py[line:32] INFO userToken: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:06 create.py[line:34] INFO blogTitle: mysql
+2019-09-03 15:45:06 create.py[line:36] INFO blogContent: mysql learn
+2019-09-03 15:45:06 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:45:06 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-09-03 15:45:06 create.py[line:48] INFO getUserInDB: <table User=> id: 9 username:'wulao375' password:'wulaoshi2019' email:'wulao@qq.com' token : 'd82c4209249d41f88db753b9f3af03d3' loginTime:'2019-09-03 15:45:05'>
+2019-09-03 15:45:06 create.py[line:52] INFO userLoginTimeInDB: 2019-09-03 15:45:05
+2019-09-03 15:45:06 create.py[line:55] INFO userTokenInDB: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:06 util.py[line:122] INFO timestampNew : time when post request: 1567496706.7101295
+2019-09-03 15:45:06 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=45, tm_sec=5, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:45:06 util.py[line:126] INFO timestampOld format from timeArray: 1567496705.0
+2019-09-03 15:45:06 util.py[line:128] INFO timeStampDiff: 1.7101294994354248
+2019-09-03 15:45:06 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:45:06 create.py[line:69] INFO createBlogTimeString: 2019-09-03 15:45:06
+2019-09-03 15:45:06 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:06] "POST /create/ HTTP/1.1" 200 -
+2019-09-03 15:45:07 getBlogsOfUser.py[line:26] INFO ########################[GetBlogsOfUser]########################
+2019-09-03 15:45:07 getBlogsOfUser.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:45:07 getBlogsOfUser.py[line:29] INFO json_data: {'userid': 9, 'token': 'd82c4209249d41f88db753b9f3af03d3'}
+2019-09-03 15:45:07 getBlogsOfUser.py[line:31] INFO userid: 9
+2019-09-03 15:45:07 getBlogsOfUser.py[line:33] INFO userToken: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:07 getBlogsOfUser.py[line:35] INFO offset: 
+2019-09-03 15:45:07 getBlogsOfUser.py[line:37] INFO lines: 
+2019-09-03 15:45:07 getBlogsOfUser.py[line:39] INFO neededParams: dict_keys(['userid', 'token', 'offset', 'lines'])
+2019-09-03 15:45:07 getBlogsOfUser.py[line:41] INFO requestParams: dict_keys(['userid', 'token'])
+2019-09-03 15:45:07 getBlogsOfUser.py[line:43] INFO type(offset) -> <class 'str'> 
+ type(lines) -> <class 'str'>
+2019-09-03 15:45:07 getBlogsOfUser.py[line:48] INFO getUserInDB: <table User=> id: 9 username:'wulao375' password:'wulaoshi2019' email:'wulao@qq.com' token : 'd82c4209249d41f88db753b9f3af03d3' loginTime:'2019-09-03 15:45:05'>
+2019-09-03 15:45:07 getBlogsOfUser.py[line:54] INFO userLoginTimeInDB: 2019-09-03 15:45:05
+2019-09-03 15:45:07 getBlogsOfUser.py[line:57] INFO userTokenInDB: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:07 util.py[line:122] INFO timestampNew : time when post request: 1567496707.778542
+2019-09-03 15:45:07 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=45, tm_sec=5, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:45:07 util.py[line:126] INFO timestampOld format from timeArray: 1567496705.0
+2019-09-03 15:45:07 util.py[line:128] INFO timeStampDiff: 2.7785420417785645
+2019-09-03 15:45:07 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:45:07 getBlogsOfUser.py[line:72] INFO blogs: [<table UserBlog=> articleId: 10 blogTitle:'mysql' blogContent:'mysql learn' user_id:9 createTime : '2019-09-03 15:45:06' updateTime : None>]
+2019-09-03 15:45:07 util.py[line:153] INFO ----blog: <table UserBlog=> articleId: 10 blogTitle:'mysql' blogContent:'mysql learn' user_id:9 createTime : '2019-09-03 15:45:06' updateTime : None>
+2019-09-03 15:45:07 util.py[line:160] INFO blogDict: {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 10, 'owner': 9, 'posted_on': '2019-09-03 15:45:06'}
+2019-09-03 15:45:07 util.py[line:163] INFO responseDict: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 10, 'owner': 9, 'posted_on': '2019-09-03 15:45:06'}], 'code': '00', 'userid': 9}
+2019-09-03 15:45:07 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:07] "POST /getBlogsOfUser/ HTTP/1.1" 200 -
+2019-09-03 15:45:08 update.py[line:29] INFO ########################[Update]########################
+2019-09-03 15:45:08 update.py[line:30] INFO self.args.keys(): dict_keys(['userid', 'token', 'articleId', 'title', 'content'])
+2019-09-03 15:45:08 update.py[line:32] INFO json_data: {'userid': 9, 'token': 'd82c4209249d41f88db753b9f3af03d3', 'articleId': 10, 'title': 'update title', 'content': 'update blog content'}
+2019-09-03 15:45:08 update.py[line:34] INFO userid: 9
+2019-09-03 15:45:08 update.py[line:36] INFO userToken: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:08 update.py[line:38] INFO articleId: 10
+2019-09-03 15:45:08 update.py[line:40] INFO blogTitle: update title
+2019-09-03 15:45:08 update.py[line:42] INFO blogContent: update blog content
+2019-09-03 15:45:08 update.py[line:44] INFO neededParams: dict_keys(['userid', 'token', 'articleId', 'title', 'content'])
+2019-09-03 15:45:08 update.py[line:46] INFO requestParams: dict_keys(['userid', 'token', 'articleId', 'title', 'content'])
+2019-09-03 15:45:08 update.py[line:53] INFO getUserInDB: <table User=> id: 9 username:'wulao375' password:'wulaoshi2019' email:'wulao@qq.com' token : 'd82c4209249d41f88db753b9f3af03d3' loginTime:'2019-09-03 15:45:05'>
+2019-09-03 15:45:08 update.py[line:57] INFO userLoginTimeInDB: 2019-09-03 15:45:05
+2019-09-03 15:45:08 update.py[line:60] INFO userTokenInDB: d82c4209249d41f88db753b9f3af03d3
+2019-09-03 15:45:08 util.py[line:122] INFO timestampNew : time when post request: 1567496708.8389113
+2019-09-03 15:45:08 util.py[line:124] INFO timeArray after time.strptime func: time.struct_time(tm_year=2019, tm_mon=9, tm_mday=3, tm_hour=15, tm_min=45, tm_sec=5, tm_wday=1, tm_yday=246, tm_isdst=-1)
+2019-09-03 15:45:08 util.py[line:126] INFO timestampOld format from timeArray: 1567496705.0
+2019-09-03 15:45:08 util.py[line:128] INFO timeStampDiff: 3.838911294937134
+2019-09-03 15:45:08 util.py[line:132] INFO the time difference is : 0 hour
+2019-09-03 15:45:08 update.py[line:72] INFO getBlogInDB: <table UserBlog=> articleId: 10 blogTitle:'mysql' blogContent:'mysql learn' user_id:9 createTime : '2019-09-03 15:45:06' updateTime : None>
+2019-09-03 15:45:08 update.py[line:78] INFO updateBlogTimeString: 2019-09-03 15:45:08
+2019-09-03 15:45:08 _internal.py[line:122] INFO 127.0.0.1 - - [03/Sep/2019 15:45:08] "PUT /update/ HTTP/1.1" 200 -
